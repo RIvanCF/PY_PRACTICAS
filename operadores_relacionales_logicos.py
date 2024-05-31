@@ -96,3 +96,4 @@ print("El valor: ", v1,"; Es de tipo: ",tipo1)
 print("El valor: ", number_5,"; Es de tipo: ",tipo2)
 print("El valor: ", letter,"; Es de tipo: ",tipo3)
 print("El valor: ", number_6,"; Es de tipo: ",tipo4)
+'''ligero cambio en el codigo '''

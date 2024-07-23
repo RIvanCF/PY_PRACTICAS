@@ -23,12 +23,9 @@ Recomendable establecer un tipo de dato a la variable definida parta que el codi
 '''
 entero_val = 23 # Variable con dato del tipo entero  
 flotante_val = 34.6 # Variable con dato del tipo flotante 
-booleano_val = True 
-string_val = "STAR WARS"
-print("String:", string_val)
-print("Entero: ",entero_val)
-print("Flotante: ",flotante_val)
-print("Booleano: ", booleano_val)
-
-
-
+booleano_val = True #Variable con dato del tipo Booleano 
+string_val = "STAR WARS" #Variable del tipo string 
+print("String:", string_val,". Este dato es del tipo -> ",type(string_val)) 
+print("Entero: ",entero_val,". Este dato es del tipo -> ",type(entero_val))
+print("Flotante: ",flotante_val,". Este dato es del tipo -> ",type(flotante_val))
+print("Booleano: ", booleano_val,". Este dato es del tipo ->",type(booleano_val))

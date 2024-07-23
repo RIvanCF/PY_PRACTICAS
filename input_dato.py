@@ -6,6 +6,6 @@ print("El valor que ingresaste es: ", dato_in)#Impresión del dato
 
 '''Para que el dato ingresado tenga las propiedades deseadas, se debe definir el tipo de dato correspondiente'''
 dato_input = input("Ingresa un dato del tipo entero: ") #Aqui el dato a ingresar sera del tipo string (str)
-dato_input = int(dato_input)#El dato pasa a convertise en un valor del tipo entero (int)
+dato_input = int(dato_input)#El dato generado sera del tipo entero (int)
 print("Dato ingresado: ", dato_input)
 print("Es un valor del tipo: ",type(dato_input))

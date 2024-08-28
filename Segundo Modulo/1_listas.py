@@ -25,3 +25,10 @@ poke_5 = pokelist[-3]
 poke_6 = pokelist[-2]
 print("Los datos obtenidos de la lista son: ", poke_1, poke_2, poke_3)
 print("Los datos obtenidos son: ", poke_5, poke_6)
+
+'''En este apartado, actualizaremos uno de los datos que conforma la lista 
+se usara la lista anterior (pokelist) y se rempalzara el dato "Articuno" por "Metagross"'''
+pokelist[2] = 'METAGROSS'
+print(pokelist) #sE IMPRIMIRA LA LISTA CON LA ACTUALIZACIÓN DENTRO DE LA LISTA (CAMBIÓ Articuno -> Metagross)
+
+#Sublistas 
